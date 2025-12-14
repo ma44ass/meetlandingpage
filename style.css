@@ -95,6 +95,7 @@ h1, h2, h3{
    font-size: 16px;
    font-weight: 900;
    line-height: 150%;
+   transition: all 0.5s ease-out;
 }
 .btn span{
     opacity: 50%;
@@ -102,6 +103,13 @@ h1, h2, h3{
 
 .btn:first-of-type{
     background-color: var(--cyan-600);
+}
+
+.btn:hover{
+    opacity: 90%;
+    transform: scale(1.1);
+    filter:drop-shadow(4px 4px 2px var(--slate-900))
+    
 }
 
 /*main*/
