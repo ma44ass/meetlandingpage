@@ -155,7 +155,7 @@ footer .number{
 
 footer .content{
     max-width: 100%;
-    background-image: url(/images/footer.png);
+    background-image: url(images/footer.png);
     background-size: cover;
     background-position: center;
     margin: 0;
